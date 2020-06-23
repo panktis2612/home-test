@@ -99,7 +99,7 @@ export function Toolbar(props: any) {
     el.style.top = `${rect.top + window.pageYOffset - el.offsetHeight}px`;
     el.style.left = `${
       rect.left + window.pageXOffset - el.offsetWidth / 2 + rect.width / 2
-    }px`;
+      }px`;
   });
 
   return (
